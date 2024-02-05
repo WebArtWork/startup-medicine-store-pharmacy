@@ -9,7 +9,6 @@
 	"scss": "scss/index.scss",
 	"variables": {
 		"intro_bg": "rohovskanika/img/ewawka_bg.jpg",
-		"primary_color": "#50B0BD",
 		"your_name": " ",
 		"land_decor": "1",
 		"ceo_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",

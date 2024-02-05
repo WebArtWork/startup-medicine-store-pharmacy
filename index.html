@@ -37,10 +37,10 @@
 		}
 
 		.intro {
-			background: url({{{variables.intro_bg}}}) center;
+			background: url(/rohovskanika/img/ewawka_bg.jpg);
 			width: 100%;
 			display: table;
-			padding: 450px 0 350px 0;
+			padding: 450px 0 450px 0;
 			color: #ffffff;
 			background-size: cover;
 
@@ -57,17 +57,21 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 					<i class="fa fa-bars"></i>
 				</button>
-				<a class="navbar-brand page-scroll" href="/">
-					<img src="{{{variables.logo_text}}}" width="155px"></a>
+				<a class="navbar-brand page-scroll" href="#">
+					Oxygen</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 				<ul class="nav navbar-nav">
-					{% for tag in tags %}
 					<li>
-						<a href="/{{{tag.category.group}}}s/{{{tag.id}}}">{{{tag.name}}}</a>
+						<a href="/articles">Articles</a>
 					</li>
-					{% endfor %}
+					<li>
+						<a href="/drugs">Drugs</a>
+					</li>
+					<li>
+						<a href="/services">Services</a>
+					</li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -90,7 +94,7 @@
 				<div class="col-lg-4 col-md-6 mb-4 mb-md-0">
 					<h5 class="text-uppercase">
 						<div class="logo">
-							<img src="{{{variables.logo_text}}}" width="155px"></a>
+							Oxygen
 						</div>
 					</h5>
 
@@ -114,19 +118,6 @@
 				</div>
 				<!--Grid column-->
 
-				<!--Grid column-->
-				<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-					<h5 class="text-uppercase"><a href="/services">SERVICES</a></h5>
-
-					<ul class="list-unstyled mb-0">
-						{% for service in services %}
-						<li>
-							<a href="/service/{{{service.id}}}">{{{service.name}}}</a>
-						</li>
-						{% endfor %}
-					</ul>
-				</div>
-				<!--Grid column-->
 
 				<!--Grid column-->
 				<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
@@ -142,19 +133,6 @@
 				</div>
 				<!--Grid column-->
 
-				<!--Grid column-->
-				<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-					<h5 class="text-uppercase"><a href="/hospitals">HOSPITALS</a></h5>
-
-					<ul class="list-unstyled mb-0">
-						{% for hospital in hospitals %}
-						<li>
-							<a href="/hospital/{{{hospital.id}}}">{{{hospital.name}}}</a>
-						</li>
-						{% endfor %}
-					</ul>
-				</div>
-				<!--Grid column-->
 
 				<!--Grid column-->
 				<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
@@ -170,28 +148,13 @@
 				</div>
 				<!--Grid column-->
 
-				
-				<!--Grid column-->
-				<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-					<h5 class="text-uppercase"><a href="/portfolios">PORTFOLIOS</a></h5>
-
-					<ul class="list-unstyled mb-0">
-						{% for portfolio in portfolios %}
-						<li>
-							<a href="/portfolio/{{{portfolio.id}}}">{{{portfolio.name}}}</a>
-						</li>
-						{% endfor %}
-					</ul>
-				</div>
-				<!--Grid column-->
-
 			</div>
 			<!-- Grid container -->
 		</div>
 		<!-- Copyright -->
 		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.062); padding: 20px;">
-			© 2023 Copyright:
-			<a class="text-white" href="https://webart.work/">WAW</a>
+			© 2024 Copyright:
+			<a class="text-white" href="https://webart.work/">NR OXYGEN</a>
 		</div>
 		<!-- Copyright -->
 	</footer>

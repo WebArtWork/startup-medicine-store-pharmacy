@@ -7,19 +7,19 @@
 		  {
 			"id": "/article",
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/service.jpg",
 			"name": "article"
 		  },
 		  {
 			"id": "/article",
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/service.jpg",
 			"name": "article"
 		  },
 		  {
 			"id": "/article",
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/service.jpg",
 			"name": "article"
 		  }
 		],
@@ -28,21 +28,28 @@
 			"id": "drug",
 			"price": 1200,
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/ibuprofen.jpg",
 			"name": "product"
 		  },
 		  {
 			"id": "drug",
 			"price": 1200,
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/ibuprofen.jpg",
 			"name": "product"
 		  },
 		  {
 			"id": "drug",
 			"price": 1200,
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/ibuprofen.jpg",
+			"name": "product"
+		  },
+		  {
+			"id": "drug",
+			"price": 1200,
+			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+			"thumb": "/rohovskanika/img/ibuprofen.jpg",
 			"name": "product"
 		  }
 		],
@@ -51,21 +58,21 @@
 			"id": "pharmacy",
 			"price": 1200,
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/pharmacy.jpg",
 			"name": "service"
 		  },
 		  {
 			"id": "pharmacy",
 			"price": 1200,
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/pharmacy.jpg",
 			"name": "service"
 		  },
 		  {
 			"id": "pharmacy",
 			"price": 1200,
 			"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-			"thumb": "https://neryxomka.com/template/img/welcome.png",
+			"thumb": "/rohovskanika/img/pharmacy.jpg",
 			"name": "service"
 		  }
 		]

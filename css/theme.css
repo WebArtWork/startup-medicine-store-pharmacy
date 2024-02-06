@@ -219,7 +219,7 @@ a:focus {
 }
 
 .container-new {
-  background-color: rgba(6, 57, 84, 0.39);
+  background-color: rgb(6, 57, 84);
   width: 100%;
   display: table;
   padding: 120px 0 50px 0;

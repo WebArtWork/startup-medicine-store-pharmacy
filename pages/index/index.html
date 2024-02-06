@@ -43,6 +43,7 @@
 				<div class="owl-carousel owl-theme owl-courses">
 					{% for drug in drugs %}
 					<div class="col-md-12 col-sm-12">
+						<a href="/drugs">
 						<div class="item">
 							<div class="courses-thumb">
 								<div class="courses-top">
@@ -52,20 +53,21 @@
 								</div>
 
 								<div class="courses-detail">
-									<h4><a href="">{{{drug.name}}}</a></h4>
+									<h4>{{{drug.name}}}</h4>
 									<p>{{{drug.short}}}</p>
 								</div>
 
 								<div class="courses-info">
 									<div class="courses-author">
 										<div class="courses-price">
-											<a href="#"><span>{{{drug.price}}}</span></a>
+											<span>{{{drug.price}}}</span>
 										</div>
 
 									</div>
 								</div>
 							</div>
 						</div>
+					</a>
 					</div>
 					{% endfor %}
 				</div>
@@ -76,11 +78,11 @@
 
 <div class="polosa">
 	<div class="container content-section text-center">
-		<h3>pharmacy</h3>
+		<h3>pharmacies</h3>
 		<div class="row">
 			{% for pharmacy in pharmacies %}
 			<div class="col-md-4">
-				<a href="/pharmacys">
+				<a href="/pharmacies">
 					<div class="card">
 						<img src="{{{pharmacy.thumb}}}" alt="{{{pharmacy.name}}}">
 						<div class="card-body">
